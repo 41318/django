@@ -25,7 +25,7 @@ SECRET_KEY = '&tha11ms=7chf!h0&m^95)4a)4p33h(4f6yr6x!0ism!q=2l)b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','desktop-8o6foqj\dell.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','41318.pythonanywhere.com']
 
 
 # Application definition
@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Asia/Almaty'
+TIME_ZONE = 'Asia\Almaty'
 
 USE_I18N = True
 
