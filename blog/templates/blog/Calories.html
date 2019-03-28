@@ -1,21 +1,17 @@
-{% load static %}
 <html>
     <head>
-        <title>Django Girls blog</title>
+        <title>C_C</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 		<link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+		<link rel="stylesheet" href="{% static 'HERE_IS_CSS' %}">
     </head>
     <body>
             <div class="page-header">
                 {% if user.is_authenticated %}
                         <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
                 {% endif %}
-                <div class="dg_cc">
-                    <h1><a href="/">Django Girls Blog</a></h1>
-                    <a href=""><button class="ccbutton">C_C</button></a>
-                </div>
+                <h1><a href="/">Calory counter</a></h1>
             </div>
             <div class="content container">
                 <div class="row">
